@@ -33,20 +33,20 @@ git clone https://github.com/bharat2005/queeny-app.git
 cd darlee-app
 ```
 
-2. Install dependencies
+### 2. Install dependencies
 ```
 npm install
 ```
    Or use yarn if that's your preferred package manager.
 
-3. Add Firebase config:
+### 3. Add Firebase config:
    Download your own google-services.json file from the Firebase Console and place it at
 ```
 android/app/google-services.json
 ```
    ⚠️ This file is ignored in .gitignore, so you'll need to add your own.
 
-4. Set up environment variables:
+### 4. Set up environment variables:
    Rename the file:
 ```
 example.env ➜ .env
@@ -57,7 +57,7 @@ example.env ➜ .env
 GEMINI_API_KEY=XXXX
 ```
 
- 5. Run the Android app:
+### 5. Run the Android app:
 ```
 npx expo run:android
 ```
