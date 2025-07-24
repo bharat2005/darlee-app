@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# 🌸 DarLee — Ai Based Menstural Cycle and Mood traker and predictor
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**DarLee** is a ....
 
-## Get started
+🎬 [Watch Demo on YouTube](https://youtu.be/IhErMg8jaLU?feature=shared)  
+📱 [Watch Insta Reel Part 1](https://www.instagram.com/reel/DLSoEDrSxya/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+📱 [Watch Insta Reel Part 2](https://www.instagram.com/reel/DLSr0DyyDIk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- 
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🖼️ Banner Preview
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Queeny Banner](./media/Queeny%20Banner.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🧠 Tech Stack
 
-When you're ready, run:
+- 
+---
 
-```bash
-npm run reset-project
+## 🛠️ Setup Instructions
+
+1. Clone the repo:
+```
+git clone https://github.com/bharat2005/queeny-app.git
+cd darlee-app
+```
+2. Install dependencies
+```
+npm install
+```
+3. Add your own google-services.json file at darlee-app/android/app/
+3. Rename the file example.env to .env
+4. Update .env with your own configuration, e.g.:
+```
+# Rename this file to ".env" before use
+# Replace XXXX's with your own Gemini API key 
+
+GEMINI_API_KEY=XXXX
+```
+ 5. Run the app 
+```
+npx expo run:android
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### ⚠️ Note on Firestore Data
 
-To learn more about developing your project with Expo, look at the following resources:
+This app uses Firestore to fetch magzine cards feed data.
+If you're running the app locally with your own Firebase project, you'll need to manually seed your Firestore with magzines/cards documents — otherwise, the feed may appear empty.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 📄 License  
+This project is licensed under the [MIT License](./LICENSE).
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
