@@ -34,11 +34,13 @@ cd darlee-app
 ```
 
 
+
 ### 2. Install dependencies
 ```
 npm install
 ```
    Or use yarn if that's your preferred package manager.
+
 
 
 ### 3. Add Firebase config:
@@ -47,6 +49,7 @@ npm install
 android/app/google-services.json
 ```
    ⚠️ This file is ignored in .gitignore, so you'll need to add your own.
+
 
 
 ### 4. Set up environment variables:
@@ -61,11 +64,13 @@ GEMINI_API_KEY=XXXX
 ```
 
 
+
 ### 5. Run the Android app:
 ```
 npx expo run:android
 ```
    Make sure you have an Android device or emulator running.
+
 
 
 ---
