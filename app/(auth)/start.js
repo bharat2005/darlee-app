@@ -50,7 +50,7 @@ onPress={()=> {
 style={{backgroundColor:MyColors.DARK_GREY, height:44}}
 contentStyle={{height:44}}
 theme={{roundness:2}}
-labelStyle={{fontFamily:'Outfit-Regular', fontSize:16, color:'white',}}
+labelStyle={{fontFamily:'Outfit-Regular', fontSize:16, color:'white', fontWeight:'bold'}}
 >
 Start New
 </Button>   
@@ -63,8 +63,9 @@ Start New
 style={{ height:44, borderWidth:0.5, borderColor:'black', backgroundColor:'white'}}
 contentStyle={{height:44}}
 theme={{roundness:2}}
-labelStyle={{fontFamily:'Outfit-Regular', fontSize:16, color:'black',}}
+labelStyle={{fontFamily:'Outfit-Regular', fontSize:16, color:'black', fontWeight:'bold'}}
 >
+
 Already have an account?
 </Button>   
       </View>

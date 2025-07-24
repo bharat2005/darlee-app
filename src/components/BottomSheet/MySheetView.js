@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, KeyboardAvoidingView, Platform } from 'react-native'
 import React from 'react'
 import MySheetViewHeader from './MySheetViewHeader'
 import MyBottomSheetDate from './MyBottomSheetDate'
@@ -25,7 +25,7 @@ const MySheetView = ({handlSheet, weekDays}) => {
 
 
   return (
-    <View style={{width:'100%', height:'100%'}}>
+    <KeyboardAvoidingView style={{width:'100%', height:'100%'}} behavior='height' keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : 60}>
         <MySheetViewHeader handlSheet={handlSheet} />
 
         <MyBottomSheetDate  selectedDate={selectedDate} /> 
@@ -33,7 +33,7 @@ const MySheetView = ({handlSheet, weekDays}) => {
         <MyFormikView handleFormikSubmit={handleFormikSubmit} dayLog={dayLog} />
 
 
-    </View>
+    </KeyboardAvoidingView>
   )
 }
 

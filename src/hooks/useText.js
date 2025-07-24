@@ -2,7 +2,7 @@ import { useQuery } from '@tanstack/react-query'
 import { doc, getDoc } from '@react-native-firebase/firestore'
 import { db } from '../services/firebase/firebaseConfig'
 
-
+      
 export const useText = (id) => {
     return useQuery({
         queryKey:['agreement',id],
@@ -10,6 +10,6 @@ export const useText = (id) => {
             const res = await getDoc(doc( db, 'textData', id))
             return res.data()?.array || []
         },
-        enabled:!!id
+        enabled:!!id,
     })
 }
