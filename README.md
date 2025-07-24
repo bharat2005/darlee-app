@@ -3,7 +3,7 @@
 **DarLee** is a ....
 
 🎬 [Watch Demo on YouTube](https://youtu.be/IhErMg8jaLU?feature=shared)  
-📱 [Watch Insta Reel]([https://www.instagram.com/reel/DLSoEDrSxya/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==](https://www.instagram.com/reel/DMfvV2apPjU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==])
+📱 [Watch Insta Reel](https://www.instagram.com/reel/DMfvV2apPjU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 
 ---
 
