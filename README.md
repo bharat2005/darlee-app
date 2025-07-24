@@ -27,7 +27,7 @@
 
 ## 🛠️ Setup Instructions
 
-# 1. Clone the repo:
+### 1. Clone the repo:
 ```
 git clone https://github.com/bharat2005/queeny-app.git
 cd darlee-app
