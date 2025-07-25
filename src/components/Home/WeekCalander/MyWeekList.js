@@ -17,6 +17,7 @@ const MyWeekList = ({seletedDate, setSelectedDate, handleDayPress}) => {
   const {data: periods} = usePeriods()
 
 
+
   useEffect(()=>{
     handleDayPress(getIndex(seletedDate))
   },[seletedDate])
@@ -37,7 +38,7 @@ const MyWeekList = ({seletedDate, setSelectedDate, handleDayPress}) => {
       })
     })
     return markedObj
-  }
+}
 
 
 

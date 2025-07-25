@@ -13,6 +13,7 @@ const FutureRecordView = ({selectedDate}) => {
   const {data: predictions, isLoading} = useMoodPredictions(weekKey)
   const queryClient = useQueryClient()
 
+
   useEffect(()=> {
     if(isLoading || predictions) return
     handlePrediciton()
