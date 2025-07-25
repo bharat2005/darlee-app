@@ -26,7 +26,6 @@ const starredCardIds = useMemo(()=> {
 return data?.map(item => item?.docId)
 },[data])
 
-
   
     
 

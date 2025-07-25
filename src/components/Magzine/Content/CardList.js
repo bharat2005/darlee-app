@@ -15,8 +15,6 @@ const CardList = ({listData, type, starredCardIds}) => {
 
 
 
-
-
   return (
     <View style={{height:190, width:'100%',}}>
         

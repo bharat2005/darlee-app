@@ -11,6 +11,9 @@ const SelfCare = ({type, starredCardIds}) => {
     return data?.pages?.flatMap(page => page?.list) || []
   })
 
+
+
+
   const handleRefresh = async () => {
     setRefreshing(true)
     await refetch()
