@@ -48,6 +48,7 @@ const AuthContextProvider = ({children}) => {
 
 
     useEffect(()=> {
+      console.log("Constants.expoConfig?.extra?.CLIENT_ID",Constants.expoConfig?.extra?.CLIENT_ID)
     GoogleSignin.configure({
       webClientId:Constants.expoConfig?.extra?.CLIENT_ID
     })
