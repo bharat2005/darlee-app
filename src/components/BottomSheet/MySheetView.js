@@ -25,7 +25,7 @@ const MySheetView = ({handlSheet, weekDays}) => {
 
 
   return (
-    <KeyboardAvoidingView style={{width:'100%', height:'100%'}} behavior='height' keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : 60}>
+    <View style={{width:'100%', height:'100%'}}>
         <MySheetViewHeader handlSheet={handlSheet} />
 
         <MyBottomSheetDate  selectedDate={selectedDate} /> 
@@ -33,7 +33,7 @@ const MySheetView = ({handlSheet, weekDays}) => {
         <MyFormikView handleFormikSubmit={handleFormikSubmit} dayLog={dayLog} />
 
 
-    </KeyboardAvoidingView>
+    </View>
   )
 }
 

@@ -49,8 +49,8 @@ initialValues = { initialValues ? initialValues : {
         {
             ({handleSubmit, values, errors, touched, setFieldValue, handleChange, handleBlur,isSubmitting }) => (
             
-
-                    <>
+<>
+                    <KeyboardAvoidingView style={{flex:1, width:'100%'}} behavior={Platform.OS === 'ios' ? 'padding' : 'height'} keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : 60}>       
 
                 <BottomSheetScrollView  style={{width:'100%', height:'100%', padding:12}} showsVerticalScrollIndicator={false} contentContainerStyle={{gap:38}}>
 
@@ -121,6 +121,8 @@ initialValues = { initialValues ? initialValues : {
                     <View style={{height:40}} />
 
                 </BottomSheetScrollView>
+
+                </KeyboardAvoidingView>
 
              <FormikButton handleSubmit={handleSubmit} isSubmitting={isSubmitting} /> 
 

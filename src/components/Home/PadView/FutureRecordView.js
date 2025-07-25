@@ -25,13 +25,6 @@ const FutureRecordView = ({selectedDate}) => {
     if(res.success) {
       queryClient.setQueryData(['mood-predictions', weekKey], res.data)
       queryClient.invalidateQueries({queryKey: ['mood-predictions', weekKey]})
-    } else {
-      Toast.show({
-        text1: 'Error',
-        text2: 'Failed to get mood prediction',
-        type: 'custome',
-        props:{success: false}
-      })
     }
   }
 

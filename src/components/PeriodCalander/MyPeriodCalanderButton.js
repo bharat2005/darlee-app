@@ -18,11 +18,11 @@ const MyPeriodCalanderButton = ({periods, setPeriods, mutatePeriods}) => {
             onSuccess: async() => {  
                 await geminiPeriodPrediction()
                 queryClient.invalidateQueries(['periods'])
-                Toast.show({type:'custome', text1:'Periods Added', props: {type: 'success'}})
+                Toast.show({type:'custome', text2:'Periods Added Successfully', props: {type: 'success'}})
                 setIsLoading(false)
             },
             onError: () => {
-                Toast.show({type:'custome', text1:'Error Adding Periods', props: {type: 'error'}})
+                Toast.show({type:'custome', text2:'Error Adding Periods', props: {type: 'error'}})
             }
         })
     }

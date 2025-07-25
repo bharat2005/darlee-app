@@ -17,7 +17,7 @@ const Magzines = () => {
     const {data = [], error, isLoading, refetch, isFetching} = useAllStarred()
 
 
-
+console.log(data)
 
 
   const renderScene = ({route}) => {
