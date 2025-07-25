@@ -7,6 +7,7 @@ import { GoogleSignin } from '@react-native-google-signin/google-signin'
 import { deleteDoc, doc, getDoc, serverTimestamp, setDoc, Timestamp, updateDoc } from '@react-native-firebase/firestore'
 import { useQueryClient } from '@tanstack/react-query'
 import * as SplashScreen from 'expo-splash-screen'
+import Constants from 'expo-constants'
 
 SplashScreen.preventAutoHideAsync()
 
@@ -49,7 +50,7 @@ const AuthContextProvider = ({children}) => {
     useEffect(()=> {
 
     GoogleSignin.configure({
-      webClientId:'385011330673-raaukpvrdq57f5vs030jfggu4qt0miia.apps.googleusercontent.com'
+      webClientId:Constants.expoConfig?.extra?.O_AUTH_CLIENT
     })
 
   },[])

@@ -47,6 +47,7 @@ export default {
     },
     "extra": {
       "GEMINI_API_KEY": process.env.GEMINI_API_KEY,
+      "O_AUTH_CLIENT": process.env.O_AUTH_CLIENT,
       "router": {},
       "eas": {
         "projectId": "105881c8-bf3d-4c8c-a65f-27868f4f5317"
