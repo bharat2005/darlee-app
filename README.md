@@ -1,27 +1,48 @@
-# 🌸 DarLee — Ai Based Menstural Cycle and Mood traker and predictor
+# 🌸 DarLee — An AI-Powered Period & Mood Companion App
 
-**DarLee** is a ....
+**DarLee** is more than a period tracker — it’s a gentle, emotionally intelligent companion for women’s health. Powered by AI, it tracks cycles, understands mood patterns, and offers soft predictions for what’s ahead, all within a serene, privacy-first experience.
 
-🎬 [Watch Demo on YouTube](https://youtu.be/IhErMg8jaLU?feature=shared)  
-📱 [Watch Insta Reel](https://www.instagram.com/reel/DMfvV2apPjU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
+🎬 [Watch Demo on YouTube](https://youtu.be/x2PoAyUutzo?feature=shared)  
+📱 [Watch Insta Reel](https://www.instagram.com/reel/DMfvV2apPjU/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==)
 
 ---
 
 ## ✨ Features
 
-- 
+- 🩸 AI-powered period & mood prediction and tracking
+- 🧠 Daily mental + physical health tracking
+- 💬 Caring AI chat companion
+- 📚 Curated articles on hormones, self-care, and cycles
+- 🔒 Privacy-first design and soft UI
 
 ---
 
 ## 🖼️ Banner Preview
 
-![Queeny Banner](./media/Queeny%20Banner.png)
+![DarLee Banner](./media/DarLee%20Banner.png)
 
 ---
 
 ## 🧠 Tech Stack
 
-- 
+- **React Native CLI** (Expo Bare Workflow)
+- **Expo Modules** (video, linear gradient, etc.)
+- **Firebase Android SDK** (Auth, Firestore)
+- **React Native Firebase** (native integration)
+- **Google Sign-In** (@react-native-google-signin)
+- **TanStack Query** – API control & caching
+- **Zustand** – global state
+- **Axios** – network requests
+- **React Native Paper**
+- **Gorhom Bottom Sheet**
+- **Reanimated v3 + RN Gesture Handler**
+- **Lottie RN**
+- **React Native Calendars, TabView, DatePicker, SVG**
+- **RN Toast Message**
+- **Formik + Yup**
+- **date-fns, ordinal**
+- **Gemini API** – predictive mood & cycle features
+
 ---
 
 ## 🛠️ Setup Instructions
