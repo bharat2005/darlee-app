@@ -19,7 +19,7 @@
 
 ## 🖼️ Banner Preview
 
-![Queeny Banner](./media/Queeny%20Banner.png)
+![DarLee Banner](./media/DarLee%20Banner.png)
 
 ---
 
