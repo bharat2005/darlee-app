@@ -30,18 +30,18 @@
 - **Firebase Android SDK** (Auth, Firestore)
 - **React Native Firebase** (native integration)
 - **Google Sign-In** (@react-native-google-signin)
-**TanStack Query** – API control & caching
-**Zustand** – global state
-**Axios** – network requests
-**React Native Paper**
-**Gorhom Bottom Sheet**
-**Reanimated v3 + RN Gesture Handler**
-**Lottie RN**
-**React Native Calendars, TabView, DatePicker, SVG**
-**RN Toast Message**
-**Formik + Yup**
-**date-fns, ordinal**
-**Gemini API** – predictive mood & cycle features
+- **TanStack Query** – API control & caching
+- **Zustand** – global state
+- **Axios** – network requests
+- **React Native Paper**
+- **Gorhom Bottom Sheet**
+- **Reanimated v3 + RN Gesture Handler**
+- **Lottie RN**
+- **React Native Calendars, TabView, DatePicker, SVG**
+- **RN Toast Message**
+- **Formik + Yup**
+- **date-fns, ordinal**
+- **Gemini API** – predictive mood & cycle features
 
 ---
 
