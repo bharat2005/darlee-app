@@ -9,11 +9,11 @@
 
 ## ✨ Features
 
-• AI-powered period & mood prediction and tracking
-• Daily mental + physical health tracking
-• Caring AI chat companion
-• Curated articles on hormones, self-care, and cycles
-• Privacy-first design and soft UI
+- 🩸 AI-powered period & mood prediction and tracking
+- 🧠 Daily mental + physical health tracking
+- 💬 Caring AI chat companion
+- 📚 Curated articles on hormones, self-care, and cycles
+- 🔒 Privacy-first design and soft UI
 
 ---
 
