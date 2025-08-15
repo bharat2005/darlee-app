@@ -25,11 +25,11 @@
 
 ## 🧠 Tech Stack
 
-**React Native CLI** (Expo Bare Workflow)
-**Expo Modules** (video, linear gradient, etc.)
-**Firebase Android SDK** (Auth, Firestore)
-**React Native Firebase** (native integration)
-**Google Sign-In** (@react-native-google-signin)
+- **React Native CLI** (Expo Bare Workflow)
+- **Expo Modules** (video, linear gradient, etc.)
+- **Firebase Android SDK** (Auth, Firestore)
+- **React Native Firebase** (native integration)
+- **Google Sign-In** (@react-native-google-signin)
 **TanStack Query** – API control & caching
 **Zustand** – global state
 **Axios** – network requests
